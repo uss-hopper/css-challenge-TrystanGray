@@ -20,16 +20,16 @@ html, body {
 }
 
 /* create a responsive container */
-@media only screen and (min-width: 1200px) {
-	.container { width: 1170px; }
+@media only screen and (min-width: 500px) {
+	.container { width: 500px; }
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-	.container { width: 970px; }
+@media only screen and (min-width: 200px) and (max-width: 200px) {
+	.container { width: 200px; }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-	.container { width: 750px; }
+@media only screen and (min-width: 1000px) and (max-width: 1000px) {
+	.container { width: 1000px; }
 }
 
 /*****************************************************
@@ -61,6 +61,28 @@ body { width: 100%;}
 * * Pseudo Classes
 * * Attribute Selectors
 ******************************************************/
-
-
-
+header {
+	color: lime;
+	background-color: black;
+	text-align: center;
+	display: inline-block;
+}
+.instructions-wrapper {
+	border-style: solid;
+	margin: auto;
+	width: 800px;
+	background-color: white;
+	;
+}
+.container img {
+	width:25% ;
+	height: 25%;
+}
+.about-me {
+	color: white;
+	background-color: blue ;
+	;
+}
+.span {
+	text-emphasis: gold;
+}
